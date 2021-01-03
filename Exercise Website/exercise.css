@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 5px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: 50px;
+}
+
+
+.top {
+    background-image:url(workoutbuddies.jpg);
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
